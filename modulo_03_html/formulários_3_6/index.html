@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULÁRIOS</title>
+</head>
+<body>
+    <header>
+        <h1>Formulários</h1>
+    </header>
+    <main>
+        <form action="">
+            <input type="text" placeholder="Digite seu Nome">
+            <br />
+            <label for="email">Seu E-mail</label>
+            <input id="email" type="email" placeholder="digite seu email" >
+            <br />
+            <input type="tel" placeholder="Seu telefone">
+            <input type="number" max="20" min="0" step="2">
+            <input type="file">
+            <br />
+            <input type="color">
+            <input type="checkbox" id="termos"> <label for="termos">Aceito os termos</label>
+            <p>
+                Qual sua cor favorita
+            </p>
+            <input type="radio"  name="cor-favorita" id="azul"> <label for="azul">Azul</label>
+            <input type="radio" name="cor-favorita" id="vermelho"> <label for="vermelho">Vermelho</label>
+            <input type="radio" name="cor-favorita" id="amarelo"> <label for="amarelo">Amarelo</label>
+            <br />
+            <label for="filme">Qual seu filme favorito?</label>
+            <select name="" id="">
+                <option value="">Filme A</option>
+                <option value="">Filme B</option>
+                <option value="">Filme C</option>
+            </select>
+            <br />
+            <label for="filme">Qual seu filme favorito?</label>
+            <select multiple>
+                <option value="">Filme A</option>
+                <option value="">Filme B</option>
+                <option value="">Filme C</option>
+            </select>
+            <br />
+            <textarea name="" id="" cols="30" rows="10" placeholder="Digite sua opnião"></textarea>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+        </form>
+    </main>
+</body>
+</html>
