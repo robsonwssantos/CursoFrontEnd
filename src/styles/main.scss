@@ -1,0 +1,10 @@
+@use 'variaveis';
+
+body {
+    max-width: 1024px;
+    background-color: variaveis.$corFundo;
+}
+
+h1 {
+    color: variaveis.$corTextoPrincipal;
+}
